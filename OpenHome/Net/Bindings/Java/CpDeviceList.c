@@ -1,7 +1,9 @@
 #include <jni.h>
 #include <stdlib.h>
 #include <stdio.h>
+#if !defined(__APPLE__)
 #include <malloc.h>
+#endif
 #include "CpDeviceList.h"
 #include "CpDeviceListCallback.h"
 #include "JniCallbackList.h"

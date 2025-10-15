@@ -1,5 +1,7 @@
 #include <jni.h>
+#if !defined(__APPLE__)
 #include <malloc.h>
+#endif
 #include <stdlib.h>
 #include "ResourceWriter.h"
 #include "OpenHome/Net/C/DvDevice.h"

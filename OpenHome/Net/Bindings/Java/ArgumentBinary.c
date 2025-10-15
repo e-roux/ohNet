@@ -1,5 +1,7 @@
 #include <jni.h>
+#if !defined(__APPLE__)
 #include <malloc.h>
+#endif
 #include <stdlib.h>
 #include "ArgumentBinary.h"
 #include "OpenHome/Net/C/CpService.h"

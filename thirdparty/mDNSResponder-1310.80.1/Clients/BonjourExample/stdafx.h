@@ -25,6 +25,8 @@
 #include    <winsock2.h>
 
 #include    <stdlib.h>
+#if !defined(__APPLE__)
 #include    <malloc.h>
+#endif
 #include    <memory.h>
 #include    <tchar.h>

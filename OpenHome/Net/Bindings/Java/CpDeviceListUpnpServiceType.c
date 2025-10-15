@@ -1,5 +1,7 @@
 #include <jni.h>
+#if !defined(__APPLE__)
 #include <malloc.h>
+#endif
 #include <stdio.h>
 #include <stdlib.h>
 #include "CpDeviceListUpnpServiceType.h"
